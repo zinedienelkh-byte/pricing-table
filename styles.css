@@ -8,7 +8,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f0f4f8;
 }
 body {
     font-family: sans-serif;
@@ -30,6 +29,7 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display:flex;
     flex-direction: column;
+    background-color: #f9f9f9;
 }
 
 .price-card.featured {
@@ -37,6 +37,7 @@ body {
     border: 4px solid #40a69e; 
     box-shadow: 0 10px 30px rgba(64, 166, 158, 0.3);
     z-index: 1;
+    background-color: #f9f9f9;
 }
 
 
@@ -69,7 +70,7 @@ body {
 
 .price-card.dark h3, 
 .price-card.dark .price {
-    color: #40a69e;
+    color: #d4950d;
 }
 .price {
   transition: opacity 0.5s ease;
@@ -103,3 +104,15 @@ body {
     box-shadow: 0 8px 25px rgba(64, 166, 158, 0.5);
 }
 
+.dark_mode {
+    background: #222222
+}
+
+.dark_mode #our-plans {
+    background-image: linear-gradient(to right, #d4950d, #ffffff);
+}
+
+.dm-button {
+    text-align: center;
+    margin-bottom: 20px;
+}
